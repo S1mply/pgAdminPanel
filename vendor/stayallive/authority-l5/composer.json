@@ -1,0 +1,35 @@
+{
+    "name": "stayallive/authority-l5",
+    "type": "library",
+    "description": "A simple and flexible authorization system for PHP",
+    "keywords": ["laravel", "laravel 5", "authentication", "authorization"],
+    "homepage": "https://github.com/stayallive/authority-l5",
+    "authors": [
+        {
+            "name": "Matthew Machuga",
+            "email": "machuga@gmail.com"
+        },
+        {
+            "name": "Koen Schmeets",
+            "email": "hello@koenschmeets.nl"
+        },
+        {
+            "name": "Jesse O'Brien",
+            "email": "jesse@jesse-obrien.ca"
+        },
+        {
+            "name": "Conar Welsh",
+            "email": "conar@welshlabs.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "~5.0",
+        "stayallive/authority" : "2.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Authority\\AuthorityL5": "src/"
+        }
+    }
+}
